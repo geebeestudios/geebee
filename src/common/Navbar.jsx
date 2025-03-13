@@ -30,7 +30,7 @@ const Navbar = () => {
         <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            className="sticky top-0 bg-white z-[999] py-4 px-5 sm:px-8 lg:px-14"
+            className="sticky top-0 bg-white z-[888] py-4 px-5 sm:px-8 lg:px-14"
         >
             <div className="flex justify-between items-center">
                 <img src={logo} alt="logo" className="h-[28px]" />
