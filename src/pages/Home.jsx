@@ -7,6 +7,7 @@ import Services from "../components/Services";
 import Work from "../components/Work";
 import Contact from "../components/Contact";
 import PortfolioLoader from "@/components/PortfolioLoader";
+import ScrollToTop from "../components/ScrollToTop";
 
 const Home = () => {
   const [active, setActive] = useState(true);
@@ -29,6 +30,8 @@ const Home = () => {
         <Work />
         <Contact />
       </div>
+      {/* Scroll to Top Component */}
+      <ScrollToTop />
     </div>
   );
 };
