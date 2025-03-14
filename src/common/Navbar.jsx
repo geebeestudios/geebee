@@ -33,7 +33,7 @@ const Navbar = () => {
             className="sticky top-0 bg-white z-[888] py-4 px-5 sm:px-8 lg:px-14"
         >
             <div className="flex justify-between items-center">
-                <img src={logo} alt="logo" className="h-[28px]" />
+                <img src={logo} alt="logo" className="h-[38px] w-auto object-cover" />
 
                 {/* Desktop Navigation */}
                 <div className="hidden md:flex items-center gap-8">

@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "/GeeBee.svg";
+import logo from "/GeeBee2.svg";
 import phone from "../assets/icons/phone2.svg";
 import message from "../assets/icons/message2.svg";
 import mail from "../assets/icons/mail2.svg";
